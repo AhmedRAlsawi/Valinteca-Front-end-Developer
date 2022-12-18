@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Abdoullah_Ashgar_EL-kharef;
+  src: url("../assets/Abdoullah_Ashgar_EL-kharef_Regular/Abdoullah_Ashgar_EL-kharef_Regular.ttf");
+}
+@font-face {
+  font-family: Mulish;
+  src: url("../assets/Mulish/static/Mulish-Regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.View {
+  background: url("../assets/image-1.png") center no-repeat;
+  background-size: cover;
+  padding: 40px 30px;
+}
+.Content {
+  justify-content: center;
+}
+
+.landingImg {
+  background: url("../assets/Image-Placeholder1.png") center no-repeat;
+  background-size: cover;
+  height: 315px;
+  width: 315px;
+  margin-bottom: 40px;
+}
+.signupImg {
+  background: url("../assets/Image-Placeholder2.png") center no-repeat;
+  background-size: cover;
+  height: 315px;
+  width: 315px;
+  margin-bottom: 40px;
+}
+
+.Welcome {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-family: "Abdoullah_Ashgar_EL-kharef";
+}
+
+.sub {
+  font-family: "Mulish";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 315px;
+  height: 52px;
+  font-style: normal;
+  color: #1f1249;
+  margin-bottom: 40px;
+}
+
+.myBtn {
+  padding: 0px 50px;
+  color: white;
+  width: 315px;
+  height: 60px;
+
+  background: linear-gradient(113.87deg, #2663df 14.81%, #758ff0 88.76%);
+  box-shadow: 0px 6px 18px #9cadf2;
+  border-radius: 10px;
+}
+
+/* signUp */
+
+div.input {
+  /* Type Form */
+  margin-bottom: 10px;
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 20px;
+  gap: 12px;
+
+  width: 315px;
+  height: 60px;
+
+  background: #ffffff;
+  /* light/blue-4
+
+Hovered UI element background
+*/
+  border: 1px solid #dbe3ff;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+div.input:nth-last-child(2) {
+  margin-bottom: 20px;
+}
+i {
+  color: #9cadf2;
+}
+.vl {
+  height: 20px;
+  width: 1px;
+  background-color: #dbe3ff;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+@media screen and (max-width: 480px) {
+}
